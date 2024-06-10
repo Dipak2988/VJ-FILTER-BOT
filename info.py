@@ -53,7 +53,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dipaksinghasarkar:aiiepW3vzlBbvZxA@cluster0.vzagz6b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram_files')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
@@ -101,7 +101,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'b8d020926d2f
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/c/1824329957/6118')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'db48d40a5626a79855a257f57814d6b52482b570')
 
