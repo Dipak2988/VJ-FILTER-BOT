@@ -39,7 +39,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
 REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', True)) # Set True Or False
-TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False)) # Set True Or False
+TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', True)) # Set True Or False
 auth_channel = environ.get('AUTH_CHANNEL', '-1001964648589') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002163380589')
@@ -73,7 +73,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/+imqTqNd4nOQxMmVl') # Support C
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
@@ -91,8 +91,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
+VERIFY = bool(environ.get('VERIFY', False))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'offerlinks.in')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'b8d020926d2f269b665098109d9eea658f040676')
 # if verify second shortner is True then fill below url and api
@@ -101,9 +101,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'dc66b839a010
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/HowToDownloadMovie2023/8')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'db48d40a5626a79855a257f57814d6b52482b570')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'offerlinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b8d020926d2f269b665098109d9eea658f040676')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
