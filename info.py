@@ -26,7 +26,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/1481b4c313e599c2d85b3.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/HowToDownloadMovie2023/8")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/c/2242321024/2")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -68,7 +68,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'dipaksinghasarkar') # owner user
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+jzlWxP9b14Y1ZTc1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DSSBackupChannel')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HowToDownloadMovie2023/8')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/c/2242321024/2')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/+imqTqNd4nOQxMmVl') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/c/1824329957/1169
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'offerlinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'b8d020926d2f269b665098109d9eea658f040676')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisaKamalo.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '234cfc55a4a4d35998bb3d3872fcf7de7b936b41')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
