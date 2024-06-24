@@ -26,7 +26,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/1481b4c313e599c2d85b3.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/c/2242321024/2")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/HowToDownloadMovie2023/10")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -66,10 +66,10 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'dipaksinghasarkar') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+jzlWxP9b14Y1ZTc1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+7-TRxfIKBuJiZjY9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DSSBackupChannel')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/c/2242321024/2')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/+imqTqNd4nOQxMmVl') # Support Chat Link Without https:// or @
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HowToDownloadMovie2023/10')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/+7-TRxfIKBuJiZjY9') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
