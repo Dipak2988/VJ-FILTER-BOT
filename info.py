@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/c/1824329957/1169
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisaKamalo.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '234cfc55a4a4d35998bb3d3872fcf7de7b936b41')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'yamlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '69fd612c7d98f08fce03ef99806c5f01f7e1fc7e')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
