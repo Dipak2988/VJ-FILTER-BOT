@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/c/1824329957/1169
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'yamlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '69fd612c7d98f08fce03ef99806c5f01f7e1fc7e')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'offerlinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b8d020926d2f269b665098109d9eea658f040676')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -138,7 +138,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://ethnic-rasia-dssmoviesearchbot-b79aaa53.koyeb.app/")
+URL = environ.get("URL", "https://academic-jessamyn-dssbot-c115fd13.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
