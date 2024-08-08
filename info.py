@@ -93,12 +93,12 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'offerlinks.in')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'b8d020926d2f269b665098109d9eea658f040676')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'primeurl.in')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'b57eff008bb6510536e694464e37d477f30dd7d5')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'modijiurl.com')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'dc66b839a01027c4065e8b6c5befdc88466da057')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/c/1824329957/11691')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'primeurl.in')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'b57eff008bb6510536e694464e37d477f30dd7d5')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/HowToDownloadMovie2023/10')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
